@@ -19,9 +19,8 @@ This tool identifies anomalies in financial transactions using statistical metho
 
 ## Installation
 
-1. Clone this repository:
+Clone this repository:
 
-```sh
 git clone https://github.com/yourusername/financial-transaction-anomaly-detection.git
 cd financial-transaction-anomaly-detection
 
