@@ -21,14 +21,20 @@ This tool identifies anomalies in financial transactions using statistical metho
 
 Clone this repository:
 
-git clone https://github.com/yourusername/financial-transaction-anomaly-detection.git
-cd financial-transaction-anomaly-detection
+git clone https://github.com/NoobByteCoder/probable-umbrella.git
+
+cd probable-umbrella
 
 [OPTIONAL]
+
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+source venv/bin/activate  
+
+# On Windows use `venv\Scripts\activate`
 
 Install required Python packages:
+
 pip install pandas numpy
 
 ## Usage
@@ -41,11 +47,13 @@ customer_id
 amount
 type
 description
+
 Update the detect_anomalies.py script with your SMTP server details and email credentials.
 
 Run the anomaly detection script:
 
 python detect_anomalies.py
+
 The tool will print the anomalies (if any) to the console, save them to anomalies.csv, and send an email alert.
 
 ## License
