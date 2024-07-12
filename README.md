@@ -31,7 +31,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install required Python packages:
 pip install pandas numpy
 
-**Usage**
+## Usage
+
 Place your financial transactions in a CSV file named transactions.csv. The file should have the following columns:
 
 transaction_id
@@ -47,10 +48,12 @@ Run the anomaly detection script:
 python detect_anomalies.py
 The tool will print the anomalies (if any) to the console, save them to anomalies.csv, and send an email alert.
 
-**License**
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Contributing**
+## Contributing
+
 Feel free to fork this project, create a branch, and submit a pull request. Contributions are welcome!
 
 
