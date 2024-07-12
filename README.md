@@ -16,6 +16,7 @@ This tool identifies anomalies in financial transactions using statistical metho
 - NumPy
 - smtplib
 - email
+- Postfix SMTP server (configured for local email delivery)
 
 ## Installation
 
@@ -53,6 +54,8 @@ Run the anomaly detection script:
 python detect_anomalies.py
 
 The tool will print the anomalies (if any) to the console, save them to anomalies.csv, and send an email alert.
+
+Side Note: plot.py file plots the transactions.csv file (Histogram type plot). By seeing where the the values are nicely clustered we can tweak the IQR factor (1.5 in the code) in detect_anomalies.py file.
 
 ## License
 
