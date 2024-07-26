@@ -22,7 +22,7 @@ This tool identifies anomalies in financial transactions using statistical metho
 
 Clone this repository:
 
-git clone https://github.com/NoobByteCoder/probable-umbrella.git
+git clone https://github.com/NoobByteCoder/transomaly-detection.git
 
 cd probable-umbrella
 
