@@ -24,7 +24,7 @@ Clone this repository:
 
 git clone https://github.com/NoobByteCoder/transomaly-detection.git
 
-cd probable-umbrella
+cd transomaly-detection
 
 [OPTIONAL]
 
